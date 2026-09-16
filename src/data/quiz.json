@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Qual será o resultado desse código?",
+    "code": "const numeros = [1, 2, 3, 4, 5];\n\nconsole.log(numeros[2]);",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 2,
+    "question": "Qual será o resultado desse código?",
+    "code": "const numeros = [1, 2, 3, 4, 5];\n\nconst resultado = numeros.map(numero => numero * 2);\n\nconsole.log(resultado);",
+    "options": [
+      "[1, 2, 3, 4, 5]",
+      "[2, 4, 6, 8, 10]",
+      "[3, 4, 5, 6, 7]",
+      "[1, 4, 9, 16, 25]"
+    ],
+    "answer": "[2, 4, 6, 8, 10]"
+  },
+  {
+    "id": 3,
+    "question": "Qual será o resultado desse código?",
+    "code": "const numeros = [1, 2, 3, 4, 5, 6];\n\nconst resultado = numeros.filter(numero => numero > 3);\n\nconsole.log(resultado);",
+    "options": [
+      "[1, 2, 3]",
+      "[3, 4, 5, 6]",
+      "[4, 5, 6]",
+      "[1, 2, 3, 4]"
+    ],
+    "answer": "[4, 5, 6]"
+  },
+  {
+    "id": 4,
+    "question": "Qual será o resultado desse código?",
+    "code": "const numeros = [10, 20, 30];\n\nconst resultado = numeros.reduce((total, numero) => {\n  return total + numero;\n}, 0);\n\nconsole.log(resultado);",
+    "options": [
+      "30",
+      "50",
+      "60",
+      "100"
+    ],
+    "answer": "60"
+  },
+  {
+    "id": 5,
+    "question": "O que será exibido no console?",
+    "code": "const nomes = [\"Ana\", \"João\", \"Maria\"];\n\nfor (let nome of nomes) {\n  console.log(nome);\n}",
+    "options": [
+      "Somente Ana",
+      "Somente Maria",
+      "Ana, João e Maria",
+      "Nada"
+    ],
+    "answer": "Ana, João e Maria"
+  },
+  {
+    "id": 6,
+    "question": "Qual será o resultado desse código?",
+    "code": "const usuarios = [\n  { nome: \"Ana\", idade: 20 },\n  { nome: \"João\", idade: 16 },\n  { nome: \"Maria\", idade: 25 }\n];\n\nconst maiores = usuarios.filter(usuario => usuario.idade >= 18);\n\nconsole.log(maiores.length);",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": 7,
+    "question": "Qual será o resultado desse código?",
+    "code": "const numeros = [2, 4, 6, 8, 10];\n\nfor (let i = 0; i < numeros.length; i++) {\n  if (numeros[i] > 5) {\n    console.log(numeros[i]);\n  }\n}",
+    "options": [
+      "2, 4",
+      "6, 8, 10",
+      "2, 4, 6",
+      "8, 10"
+    ],
+    "answer": "6, 8, 10"
+  },
+  {
+    "id": 8,
+    "question": "Qual será o resultado desse código?",
+    "code": "const produtos = [\n  { nome: \"Notebook\", preco: 3000 },\n  { nome: \"Mouse\", preco: 100 },\n  { nome: \"Teclado\", preco: 200 }\n];\n\nconst nomes = produtos.map(produto => produto.nome);\n\nconsole.log(nomes);",
+    "options": [
+      "[3000, 100, 200]",
+      "[\"Notebook\", \"Mouse\", \"Teclado\"]",
+      "[100, 200]",
+      "[\"produto\"]"
+    ],
+    "answer": "[\"Notebook\", \"Mouse\", \"Teclado\"]"
+  },
+  {
+    "id": 9,
+    "question": "Qual será o resultado desse código?",
+    "code": "const numeros = [1, 2, 3, 4, 5];\n\nconst resultado = numeros\n  .filter(numero => numero % 2 === 0)\n  .map(numero => numero * 10);\n\nconsole.log(resultado);",
+    "options": [
+      "[10, 20, 30, 40, 50]",
+      "[2, 4]",
+      "[20, 40]",
+      "[10, 30, 50]"
+    ],
+    "answer": "[20, 40]"
+  },
+  {
+    "id": 10,
+    "question": "Qual será o resultado desse código?",
+    "code": "const nomes = [\"Ana\", \"João\", \"Maria\"];\n\nconst resultado = nomes.find(nome => nome === \"João\");\n\nconsole.log(resultado);",
+    "options": [
+      "Ana",
+      "Maria",
+      "João",
+      "undefined"
+    ],
+    "answer": "João"
+  },
+  {
+    "id": 11,
+    "question": "Qual será o resultado desse código?",
+    "code": "const numeros = [5, 10, 15, 20];\n\nconst resultado = numeros.some(numero => numero > 18);\n\nconsole.log(resultado);",
+    "options": [
+      "true",
+      "false",
+      "20",
+      "[20]"
+    ],
+    "answer": "true"
+  },
+  {
+    "id": 12,
+    "question": "Qual será o resultado desse código?",
+    "code": "const numeros = [1, 2, 3, 4, 5];\n\nconst resultado = numeros.filter(numero => numero % 2 !== 0);\n\nconsole.log(resultado);",
+    "options": [
+      "[1, 2, 3]",
+      "[2, 4]",
+      "[1, 3, 5]",
+      "[2, 3, 4]"
+    ],
+    "answer": "[1, 3, 5]"
+  }
+]
